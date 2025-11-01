@@ -3,8 +3,8 @@
         "format": "󰣇",
         "tooltip": true,
         "tooltip-format": "btw",
-	"on-click": "/home/chrono/.config/rofi/launchers/type-4/launcher.sh ",
-	"on-click-right": "/home/chrono/.config/rofi/powermenu/type-1/powermenu.sh"
+	"on-click": "/home/(USER)/.config/rofi/launchers/type-4/launcher.sh ",
+	"on-click-right": "/home/(USER)/.config/rofi/powermenu/type-1/powermenu.sh"
     },
 
 
@@ -119,16 +119,5 @@
     "on-click": "swaync-client -t -sw",
     "on-click-right": "swaync-client -d -sw",
     "escape": true
-  },
-"custom/cava": {
-    "exec": "cava -p ~/.config/cava/config",
-    "format": "{}",
-    "interval": 0.05
-},
-"backlight/slider": {
-    "min": 0,
-    "max": 100,
-    "orientation": "horizontal",
-    "device": ""
-}
+  }
 }
