@@ -1,0 +1,2 @@
+# niri-config
+ahhhhhh duzz
