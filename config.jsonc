@@ -1,0 +1,27 @@
+// -*- mode: jsonc -*-
+{
+    "layer": "top", // Waybar at top layer
+    "position": "top", // Waybar position (top|bottom|left|right)
+    "height": 42, // Waybar height (to be removed for auto height)
+    // "width": 1280, // Waybar width
+    "spacing": 2, // Gaps between modules (4px)
+    // Choose the order of the modules
+    "modules-left": [
+        "custom/arch"
+    ],
+    "modules-center": [
+        "niri/window"
+    ],
+    "modules-right": [
+	"backlight/slider",
+	"pulseaudio",
+	"custom/weather",
+        "clock",
+	"custom/notification"
+    ],
+    //Modules configuration
+
+    "include": [
+		"/etc/xdg/waybar/modules.json"
+	]
+}
