@@ -3,8 +3,8 @@
         "format": "󰣇",
         "tooltip": true,
         "tooltip-format": "btw",
-	"on-click": "/home/(USER)/.config/rofi/launchers/type-4/launcher.sh ",
-	"on-click-right": "/home/(USER)/.config/rofi/powermenu/type-1/powermenu.sh"
+	"on-click": "~/.config/rofi/launchers/type-4/launcher.sh ",
+	"on-click-right": "~/.config/rofi/powermenu/type-1/powermenu.sh"
     },
 
 
