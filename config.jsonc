@@ -13,10 +13,9 @@
         "niri/window"
     ],
     "modules-right": [
-	"backlight/slider",
 	"pulseaudio",
 	"custom/weather",
-        "clock",
+    "clock",
 	"custom/notification"
     ],
     //Modules configuration
